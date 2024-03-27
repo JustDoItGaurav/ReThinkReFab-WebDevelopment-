@@ -1,0 +1,250 @@
+body{
+    margin: 0%;
+    background-color: yellow;
+}
+
+.HEAD {
+    width: 100%;
+    height: 150px;
+    background-color: #89fc00;
+  
+}
+
+.HEAD_LEFT {
+    background-color: #2bc016;
+    color: #e9ecef;
+    height: 150px;
+    width: 100%;
+    margin: 0%;
+    font-size: 70px;
+    font-weight: bold;
+    margin-right: 100px;
+    font-family: 'Roboto Slab', serif;
+    box-shadow:inset -5px -5px 10px black;  
+    
+}
+
+.HEAD_LEFT > p {
+    margin: 0%;
+    font-size: 30px;
+}
+
+.HEAD_LEFT > img {
+    height: 60px;
+    width: 50px;
+    padding-top: 15px;
+}
+
+
+.HEADING{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    height: 100px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px black;
+}
+
+.MEDIA{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    margin: 20px;
+    column-gap: 20px;
+}
+.PRODUCT_IMG>img{
+    
+    width: 100%; 
+    height: 400px;
+    object-fit: fit;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px black;
+
+    
+}
+
+.PRODUCT_USE{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px black;
+
+}
+
+.PRODUCT_VIDEO{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: fit;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.VIDEO{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px ;
+    height: 400px;
+    width: 600px;
+    background-color: yellow;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px black;
+}
+
+
+.METHOD{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    margin: 10px;
+    column-gap: 10px;
+
+}
+
+.MATERIALS{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    background-color: white;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px black;
+
+}
+
+.STEPS{
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 2px 2px 10px black;
+
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+h2{
+    margin: 0%;
+    margin-left: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+h3{
+    margin-left: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+ul,ol{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+li{
+    margin: 10px;
+}
+.END{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: lightgray;
+    box-shadow: 2px 2px 10px black;
+
+}
+
+.SOCIAL_MEDIA{
+    padding: 10px;
+
+    height: 160px;
+}
+
+.SOCIAL_MEDIA >div{
+    height: 80px;
+}
+
+
+
+.S_IMG{
+    height: 40px;
+    margin-right: 2px;
+    margin-top: 15px;
+    width: 40px;
+}
+
+.CONTACT_US{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.CONTACT_US > p{
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.CONTACT_US > a{
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.LINKS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.LINKS > p{
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.LINKS > a{
+    color: black;
+    margin: 1px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.BOTTOM_TAG{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px black;
+}
+
+

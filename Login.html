@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form name="login" method="post" action="Login.php">
+        <h1>Login</h1>
+        <div class="input-box">
+          <i class="bx bxs-user"></i>
+          <input
+            type="text"
+            id="Username"
+            placeholder="Username"
+            name="username"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            id="password"
+            required
+          />
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+        <button type="submit" class="btm" name="Login" value="register">
+          Login
+        </button>
+        <div class="register-link">
+          <p>Don't have an account? <a href="MyRegister.html">Register</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+
+  <script>
+    function validateform() {
+      var name = document.login.name.value;
+      var password = document.login.password.value;
+      // var name = document.login.getElementById('Username').value;
+      // var password = document.login.getElementById('Password').value;
+
+      if (name == null || name == "") {
+        alert("name can't be blank");
+        return false;
+        // document.getElementById("req1").innerHTML = "*Username required";
+        // Username.focus();
+      } else if (password.length < 6) {
+        alert(
+          document.getElementById("Username").value +
+            ", Password must be atleast 6 characters"
+        );
+        return false;
+      } else {
+        alert(
+          document.getElementById("Username").value + ", Login successful!"
+        );
+        return false;
+      }
+    }
+  </script>
+</html>
