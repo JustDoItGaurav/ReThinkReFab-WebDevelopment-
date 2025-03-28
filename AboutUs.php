@@ -13,9 +13,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     // Database connection settings
     $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "PROJECT";
+    $username = "if0_36251446";
+    $password = "Gaurav1029";
+    $dbname = "if0_36251446_project";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Insert data into the database
-    $sql = "INSERT INTO AboutUs (email) VALUES ('$email')";
+    $sql = "INSERT INTO aboutus (email) VALUES ('$email')";
     
     if ($conn->query($sql) === TRUE) {
         echo "You have successfully subscribed to our newsletter!";

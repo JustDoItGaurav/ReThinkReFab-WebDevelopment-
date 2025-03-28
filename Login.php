@@ -3,7 +3,7 @@ session_start(); // Start the session
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['username']) && isset($_POST['password'])) {
     try {
-        $conn = mysqli_connect('localhost', 'root', '', 'PROJECT');
+        $conn = mysqli_connect('localhost', 'if0_36251446', 'Gaurav1029', 'if0_36251446_project');
         if (!$conn) {
             throw new Exception("Connection failed: " . mysqli_connect_error());
         }
@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['username']) && isset($
         $key = "YourSecretKey"; // Same key used for encryption
         $encrypted_password = openssl_encrypt($password, 'aes-256-cbc', $key, 0, 'YourSecretIV');
 
-        $sql = "SELECT * FROM `MyRegister` WHERE `username` = '$username'";
+        $sql = "SELECT * FROM `myregister` WHERE `username` = '$username'";
         $query = mysqli_query($conn, $sql);
         
         if (!$query) {

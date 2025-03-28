@@ -187,9 +187,9 @@
             try {
                 if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     $servername = "localhost";
-                    $username = "root";
-                    $password = "";
-                    $database_name = "PROJECT";
+                    $username = "if0_36251446";
+                    $password = "Gaurav1029";
+                    $database_name = "if0_36251446_project";
 
                     $conn = mysqli_connect($servername, $username, $password, $database_name);
                     if (!$conn) {

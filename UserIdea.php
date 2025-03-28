@@ -1,9 +1,9 @@
 <?php
 session_start();
 $servername = "localhost";
-$username = "root";
-$password = "";
-$database_name = "PROJECT";
+$username = "if0_36251446";
+$password = "Gaurav1029";
+$database_name = "if0_36251446_project";
 try {
     $conn = new mysqli($servername, $username, $password, $database_name);
     
